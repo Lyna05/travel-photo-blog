@@ -25,10 +25,10 @@
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Lyne's Trips
                 </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Prague</a></li>
-                  <li><a class="dropdown-item" href="#">Amsterdam</a></li>
-                  <li><a class="dropdown-item" href="#">Berlin</a></li>
+                <ul class="dropdown-menu">Luxembourg
+                  <li><a class="dropdown-item" href="#">Frankreich</a></li>
+                  <li><a class="dropdown-item" href="#">Luxembourg</a></li>
+                  <li><a class="dropdown-item" href="#">Spanien</a></li>
                 </ul>
               </li>
             </ul>
@@ -36,33 +36,26 @@
         </div>
       </nav>
 
-      <div class="container-fluid mt-5">
-        <div class="row">
-            <div class="col-lg-4">
-                <div class="card">
-                    <img src="./assets/images/Frankreich.jpg" class="card-img-top" alt="Travel Photo of Frankreich">
-                    <div class="card-body">
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                  </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="card">
-                    <img src="./assets/images/Spanien.jpg" class="card-img-top" alt="Travel Photo of Spanien">
-                    <div class="card-body">
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                  </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="card">
-                    <img src="./assets/images/Luxembourg.jpg" class="card-img-top" alt="Travel Photo of Luxembourg">
-                    <div class="card-body">
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                  </div>
-            </div>
+      <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Assets/images/Frankreich.jpg" class="d-block w-100" alt="Travel Photo of Frankreich">
+          </div>
+          <div class="carousel-item">
+            <img src="Assets/images/Luxembourg.jpg" class="d-block w-100" alt="Travel Photo of Luxembourg">
+          </div>
+          <div class="carousel-item">
+            <img src="Assets/images/Spanien.jpg" class="d-block w-100" alt="Travel Photo of Spanien">
+          </div>
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
 
       <div class="container-fluid">
@@ -79,3 +72,4 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
+
